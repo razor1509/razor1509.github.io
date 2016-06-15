@@ -204,11 +204,39 @@ canvas {
 
 .coming-soon{
     position: absolute;
-    width: 250px;
+    width: auto;
     height: auto;
-    top: 50%;
+    top: 40%;
     left: 43%;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
     color:floralwhite;
 }
+
+
+.find-me{
+    position: absolute;
+    display: flex;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 46%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color:floralwhite;
+
+}
+
+
+
+.git, .codepen, .linkedin {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
